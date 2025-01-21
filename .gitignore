@@ -20,3 +20,11 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# idea files 
+.idea
+# course info
+course-info.yaml 
+# course remote infor
+course-remote-info.yaml
+# virtual environment file
+.venv
