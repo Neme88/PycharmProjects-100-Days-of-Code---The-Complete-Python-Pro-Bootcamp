@@ -9,3 +9,6 @@ print("Hello" " " + "world")
 print( "Hello" + " " + "world" )
 # second way to insert space between strings without the plus
 print("Hello " "world")
+# today we treated the input() function in python
+print("Hello " + input("What is your name?") + "!")
+
