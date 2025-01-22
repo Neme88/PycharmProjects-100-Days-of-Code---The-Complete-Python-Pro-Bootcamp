@@ -11,7 +11,8 @@ print( "Hello" + " " + "world" )
 print("Hello " "world")
 
 # today we treated the input() function in python
-#print("Hello " + input("What is your name?") + "!")
+# line 15 below we demonstrated putting function to another function by putting the input function side the print function
+# print("Hello " + input("What is your name?") + "!")
 
 # implementing the input function in a more readable format
 User_name = input("What is your name: \n")
