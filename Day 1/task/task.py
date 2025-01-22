@@ -9,9 +9,13 @@ print("Hello" " " + "world")
 print( "Hello" + " " + "world" )
 # second way to insert space between strings without the plus
 print("Hello " "world")
+
 # today we treated the input() function in python
 #print("Hello " + input("What is your name?") + "!")
+
 # implementing the input function in a more readable format
 User_name = input("What is your name: \n")
 print("Hello " + User_name + "!")
+# in this course we also treated commenting in python using # sign
+#  Also the crl / to comment and uncomment a line of code.
 
