@@ -26,14 +26,17 @@ name = "Jack"
 print(name)
 # implementing variable on number data type
 phone_number = 234567890
+print(phone_number)
 # implementing variable on a boolean datatype
 isSunShine = True
+print(isSunShine)
 # implementing variable on a function
-# input_name = input("Enter your name")
-# print(input_name)
+input_name = input("Enter your name: \n")
+print(input_name)
 # course exercise
 # finding the length of an inputted string
-print(len(input("what is your name:\n ")))
+#print(len(input("what is your name:\n ")))
+# In this course session we learnt what is variable and variable implementation on different datatypes in python
 
 
 
