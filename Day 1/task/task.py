@@ -21,7 +21,11 @@ print("Hello " "world")
 
 # In this course session we will be learning python Variables
 # Variable implementation in python
+# implementing variable on a string datatype
 name = "Jack"
 print(name)
+# implementing variable on number data type
+phone_number = 234567890
+
 
 
