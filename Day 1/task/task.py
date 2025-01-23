@@ -26,6 +26,9 @@ name = "Jack"
 print(name)
 # implementing variable on number data type
 phone_number = 234567890
+# implementing variable on a boolean datatype
+isSunShine = True
+
 
 
 
