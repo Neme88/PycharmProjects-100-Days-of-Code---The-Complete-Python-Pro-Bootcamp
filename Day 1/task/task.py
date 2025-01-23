@@ -29,8 +29,11 @@ phone_number = 234567890
 # implementing variable on a boolean datatype
 isSunShine = True
 # implementing variable on a function
-input_name = input("Enter your name")
-print(input_name)
+# input_name = input("Enter your name")
+# print(input_name)
+# course exercise
+# finding the length of an inputted string
+print(len(input("what is your name:\n ")))
 
 
 
