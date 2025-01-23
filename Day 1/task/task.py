@@ -28,7 +28,9 @@ print(name)
 phone_number = 234567890
 # implementing variable on a boolean datatype
 isSunShine = True
-
+# implementing variable on a function
+input_name = input("Enter your name")
+print(input_name)
 
 
 
