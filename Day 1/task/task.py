@@ -31,12 +31,19 @@ print(phone_number)
 isSunShine = True
 print(isSunShine)
 # implementing variable on a function
-input_name = input("Enter your name: \n")
-print(input_name)
+#input_name = input("Enter your name: \n")
+# print(input_name)
 # course exercise
-# finding the length of an inputted string
+# first course session exercise finding the length of an inputted string in a oneline solution
 #print(len(input("what is your name:\n ")))
-# In this course session we learnt what is variable and variable implementation on different datatypes in python
+# second course solution finding the length of an inputted string in multiple line solution
+username = input("what is your name?\n")
+length = len(username)
+print(length)
+
+# In this course session we learnt what is variable and variable implementation on different datatypes in python we did exercise
+#  on getting the length of inputted the string in one line and a second exericse on the same function but this time in multiple lines
+
 
 
 
