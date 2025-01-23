@@ -13,10 +13,15 @@ print("Hello " "world")
 # today we treated the input() function in python
 # line 15 below we demonstrated putting function to another function by putting the input function side the print function
 # print("Hello " + input("What is your name?") + "!")
-
 # implementing the input function in a more readable format
-User_name = input("What is your name: \n")
-print("Hello " + User_name + "!")
+# User_name = input("What is your name: \n")
+# print("Hello " + User_name + "!")
 # in this course we also treated commenting in python using # sign
 #  Also the crl / to comment and uncomment a line of code.
+
+# In this course session we will be learning python Variables
+# Variable implementation in python
+name = "Jack"
+print(name)
+
 
