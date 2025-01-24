@@ -45,9 +45,9 @@ print(isSunShine)
 #  on getting the length of inputted the string in one line and a second exericse on the same function but this time in multiple lines
 # Final project starts here
 print("Welcome to the Band Generator.")
-get_User_City = input("What's the name of the city you grow up in?\n")
-get_User_Pet_Name = input("what's your pet's name?\n")
-print("your band name could be " + get_User_City + " " + get_User_Pet_Name )
+user_City_Name= input("What's the name of the city you grow up in?\n")
+user_Pet_Name = input("what's your pet's name?\n")
+print("your band name could be: " + user_City_Name + " " + user_Pet_Name )
 
 
 
