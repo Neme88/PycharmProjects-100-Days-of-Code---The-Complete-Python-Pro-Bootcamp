@@ -37,12 +37,17 @@ print(isSunShine)
 # first course session exercise finding the length of an inputted string in a oneline solution
 #print(len(input("what is your name:\n ")))
 # second course solution finding the length of an inputted string in multiple line solution
-username = input("what is your name?\n")
-length = len(username)
-print(length)
+# username = input("what is your name?\n")
+# length = len(username)
+# print(length)
 
 # In this course session we learnt what is variable and variable implementation on different datatypes in python we did exercise
 #  on getting the length of inputted the string in one line and a second exericse on the same function but this time in multiple lines
+# Final project starts here
+print("Welcome to the Band Generator.")
+get_User_City = input("What's the name of the city you grow up in?\n")
+get_User_Pet_Name = input("what's your pet's name?\n")
+print("your band name could be " + get_User_City + " " + get_User_Pet_Name )
 
 
 
