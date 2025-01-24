@@ -76,6 +76,11 @@ print(not_Hot)
 length_input = len("12345")
 print(length_input)
 # I chose to solve this problem by converting the integers to a string and print the as len function doesn't accept integers
+# how to check any data type in python
+type_Of_Data = type(length_input)
+print(type_Of_Data)
+
+
 
 
 
