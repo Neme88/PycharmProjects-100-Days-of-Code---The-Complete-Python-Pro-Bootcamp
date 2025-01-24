@@ -59,7 +59,7 @@ negative_number_subscripting = positive_number_subscripting
 print(negative_number_subscripting[-1])
 
 # integer (whole numbers be it positive or negative) numbers without a decimal point
-# 56
+number = 56
 print(123 + 345)
 # Large integer
 # in python we use underscore to present coma when separating the large number python does ignore the underscore the only benefit is for human visualization
@@ -77,8 +77,10 @@ length_input = len("12345")
 print(length_input)
 # I chose to solve this problem by converting the integers to a string and print the as len function doesn't accept integers
 # how to check any data type in python
-type_Of_Data = type(length_input)
-print(type_Of_Data)
+print(type(False))
+print(type("Hello"))
+print(type(100))
+print(type(3.14))
 
 
 
