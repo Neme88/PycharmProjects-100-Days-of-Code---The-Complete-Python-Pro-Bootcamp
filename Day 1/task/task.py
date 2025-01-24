@@ -72,6 +72,10 @@ is_Hot = False
 print(is_Hot)
 not_Hot = True
 print(not_Hot)
+# debug exercise caused by inputting integers in a len function
+length_input = len("12345")
+print(length_input)
+# I chose to solve this problem by converting the integers to a string and print the as len function doesn't accept integers
 
 
 
