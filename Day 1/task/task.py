@@ -88,6 +88,15 @@ print(type(False))
 print(int("156") + int("456"))
 # the above code does addtion not concatenation because the strings are converted to int
 # where it makes sense we can convert all four python datatypes to another datatype
+# Error debug exercise
+# below is the code with bug.
+print("Number of letters in your name: " + len(input("Enter your name")))
+# debugged solution
+user_name = input("Enter your name ")
+length_of_user_name = len(user_name)
+print("Number of letters in your name: " + str(length_of_user_name))
+
+
 
 
 
