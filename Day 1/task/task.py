@@ -1,5 +1,6 @@
 # Write your code below this line 👇
-# Day 1 print function, strings, string concatenation, creating newline, input function, Variables and final project(band name generator).
+# Day 1 print function, strings, string concatenation, creating newline, input function,
+# len function Variables and final project(band name generator).
 print("Hello world!")
 # string manipulation series
 # we will print five lines of code using one print statement and \n to create new lines
@@ -49,6 +50,12 @@ user_Pet_Name = input("what's your pet's name?\n")
 print("your band name could be: " + user_City_Name + " " + user_Pet_Name )
 
 # Day 2 Data types, Numbers, Operations, Type Conversion, f-Strings file day project(Tip Calculator)
+
+# subscripting means pulling out individuel string
+print("Hello" [4])
+
+
+
 
 
 
