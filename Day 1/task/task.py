@@ -44,15 +44,19 @@ print(isSunShine)
 # In this course session we learnt what is variable and variable implementation on different datatypes in python we did exercise
 #  on getting the length of inputted the string in one line and a second exericse on the same function but this time in multiple lines
 # Final project starts here
-print("Welcome to the Band Generator.")
-user_City_Name= input("What's the name of the city you grow up in?\n")
-user_Pet_Name = input("what's your pet's name?\n")
-print("your band name could be: " + user_City_Name + " " + user_Pet_Name )
+# print("Welcome to the Band Generator.")
+# user_City_Name= input("What's the name of the city you grow up in?\n")
+# user_Pet_Name = input("what's your pet's name?\n")
+# print("your band name could be: " + user_City_Name + " " + user_Pet_Name )
 
 # Day 2 Data types, Numbers, Operations, Type Conversion, f-Strings file day project(Tip Calculator)
 
 # subscripting means pulling out individuel string
-print("Hello" [4])
+positive_number_subscripting = "Hello"
+print(positive_number_subscripting[4])
+# we can also achieve subscripting using negative numbers
+
+
 
 
 
