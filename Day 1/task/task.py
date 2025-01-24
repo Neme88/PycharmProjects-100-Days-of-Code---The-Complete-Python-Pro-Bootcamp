@@ -77,10 +77,12 @@ length_input = len("12345")
 print(length_input)
 # I chose to solve this problem by converting the integers to a string and print the as len function doesn't accept integers
 # how to check any data type in python
-print(type(False))
+# Datatype implementation quick exercise
 print(type("Hello"))
 print(type(100))
 print(type(3.14))
+print(type(False))
+
 
 
 
