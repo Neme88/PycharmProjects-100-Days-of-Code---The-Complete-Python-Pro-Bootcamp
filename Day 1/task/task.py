@@ -50,13 +50,31 @@ print(isSunShine)
 # print("your band name could be: " + user_City_Name + " " + user_Pet_Name )
 
 # Day 2 Data types, Numbers, Operations, Type Conversion, f-Strings file day project(Tip Calculator)
-
+# Data Type
 # subscripting means pulling out individuel string
 positive_number_subscripting = "Hello"
 print(positive_number_subscripting[4])
 # we can also achieve subscripting using negative numbers
 negative_number_subscripting = positive_number_subscripting
 print(negative_number_subscripting[-1])
+
+# integer (whole numbers be it positive or negative) numbers without a decimal point
+# 56
+print(123 + 345)
+# Large integer
+# in python we use underscore to present coma when separating the large number python does ignore the underscore the only benefit is for human visualization
+print(123_456_789)
+# float = floating point number( A number with decimal point.)
+PI = 3.14159
+print(PI)
+# Boolean (true or false values)
+is_Hot = False
+print(is_Hot)
+not_Hot = True
+print(not_Hot)
+
+
+
 
 
 
