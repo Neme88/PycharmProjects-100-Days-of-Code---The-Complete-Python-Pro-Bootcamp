@@ -55,6 +55,9 @@ print(isSunShine)
 positive_number_subscripting = "Hello"
 print(positive_number_subscripting[4])
 # we can also achieve subscripting using negative numbers
+negative_number_subscripting = positive_number_subscripting
+print(negative_number_subscripting[-1])
+
 
 
 
