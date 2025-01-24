@@ -83,6 +83,13 @@ print(type(100))
 print(type(3.14))
 print(type(False))
 
+# type casting or type convertion means converting one datatype to another datatype
+# implementation of type casting
+print(int("156") + int("456"))
+# the above code does addtion not concatenation because the strings are converted to int
+# where it makes sense we can convert all four python datatypes to another datatype
+
+
 
 
 
