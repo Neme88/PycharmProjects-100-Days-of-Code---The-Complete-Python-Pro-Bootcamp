@@ -107,6 +107,9 @@ subtraction = -
 # code example
 sum_of_expression = 10 * 10 + ( 6 - 2) + 2 / 3
 print(sum_of_expression)
+exponent = 3 ** 3
+print(exponent)
+
 
 
 
