@@ -129,6 +129,10 @@ print("Your bmi is:", int(bmi))
 # We can achevie a more the accurate result using the round function which will either round up or down to the nearest who number depending
 # on how near the decimal place numbers are to the nearest whole number this approach is advised way of achieving a cleaner output as round function is a mathematical operation in python
 print("your bmi is :", round(bmi))
+# implementing round function to an accurate result in such a way it gives us a floating point result with two decimal place instead
+# The original result with a long decimal place.
+print("your bmi is:", round(bmi, 2))
+
 
 
 
