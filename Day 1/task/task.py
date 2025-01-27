@@ -121,6 +121,7 @@ subtraction = 5 - 3
 print(subtraction)
 
 # quick PEMDASLR exercise build a BMI calculator
+"""
 height = float(input("Enter your height in centimeter:\n"))
 weight = int(input("Enter your weight in Kg:\n"))
 bmi = weight / height ** 2
@@ -131,7 +132,26 @@ print("Your bmi is:", int(bmi))
 print("your bmi is :", round(bmi))
 # implementing round function to an accurate result in such a way it gives us a floating point result with two decimal place instead
 # The original result with a long decimal place.
-print("your bmi is:", round(bmi, 2))
+print(f"your bmi is: {round(bmi, 2)}")
+"""
+# maths friendly functions and operators in python
+#  round()
+# assignment operators shorthand these short hands come handy when you are manipulation a value based on it previous value.
+# +=
+# -=
+# *=
+# /=
+
+# f-string is a technique that helps us to combine different datatypes together while printing without having to go through the painful process of
+# concatenating different values and having to convert theme before we can print. it is a very handy tool.
+# example
+age = 10
+name = "Neme"
+isTall = True
+# f-string methed to print this values
+print(f"Your name is {name}, you are {age}years old, you are tall true or false ? {isTall}.")
+
+
 
 
 
