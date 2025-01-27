@@ -116,6 +116,8 @@ print(floor_division)
 floating_point_division = 7 / 3
 addition = 3 + 2
 print(addition)
+subtraction = 5 - 3
+print(subtraction)
 
 
 
