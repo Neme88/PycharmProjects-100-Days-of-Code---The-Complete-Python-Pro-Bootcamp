@@ -90,11 +90,24 @@ print(int("156") + int("456"))
 # where it makes sense we can convert all four python datatypes to another datatype
 # Error debug exercise
 # below is the code with bug.
-print("Number of letters in your name: " + len(input("Enter your name")))
+# print("Number of letters in your name: " + len(input("Enter your name")))
 # debugged solution
-user_name = input("Enter your name ")
-length_of_user_name = len(user_name)
-print("Number of letters in your name: " + str(length_of_user_name))
+# user_name = input("Enter your name ")
+# length_of_user_name = len(user_name)
+# print("Number of letters in your name: " + str(length_of_user_name))
+# Mathematical operations in python
+"""
+bracket = ()
+exponent = ** 
+multiplication = * 
+division = / for floating point division and // for floor division 
+addition = +
+subtraction = -
+"""
+# code example
+sum_of_expression = 10 * 10 + ( 6 - 2) + 2 / 3
+print(sum_of_expression)
+
 
 
 
