@@ -124,7 +124,7 @@ print(subtraction)
 height = float(input("Enter your height in centimeter:\n"))
 weight = int(input("Enter your weight in Kg:\n"))
 bmi = weight / height ** 2
-print("Your bmi is:", bmi)
+print("Your bmi is:", int(bmi))
 
 
 
