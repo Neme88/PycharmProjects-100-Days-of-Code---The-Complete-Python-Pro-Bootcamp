@@ -114,6 +114,9 @@ print(multiplication)
 floor_division = 6 // 2
 print(floor_division)
 floating_point_division = 7 / 3
+addition = 3 + 2
+print(addition)
+
 
 
 
