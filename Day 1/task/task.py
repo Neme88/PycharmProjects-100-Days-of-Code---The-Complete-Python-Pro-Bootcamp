@@ -96,13 +96,14 @@ print(int("156") + int("456"))
 # length_of_user_name = len(user_name)
 # print("Number of letters in your name: " + str(length_of_user_name))
 # Mathematical operations in python
+# Implementing PAMDASLR in python
 """
-bracket = ()
-exponent = ** 
-multiplication = * 
-division = / for floating point division and // for floor division 
-addition = +
-subtraction = -
+Parenthesis = ()
+Exponent = ** 
+Multiplication = * 
+Division = / for floating point division and // for floor division 
+Addition = +
+Subtraction = -
 """
 # code example
 sum_of_expression = 10 * 10 + ( 6 - 2) + 2 / 3
@@ -119,7 +120,11 @@ print(addition)
 subtraction = 5 - 3
 print(subtraction)
 
-
+# quick PEMDASLR exercise build a BMI calculator
+height = float(input("Enter your height in centimeter:\n"))
+weight = int(input("Enter your weight in Kg:\n"))
+bmi = weight / height ** 2
+print("Your bmi is:", bmi)
 
 
 
