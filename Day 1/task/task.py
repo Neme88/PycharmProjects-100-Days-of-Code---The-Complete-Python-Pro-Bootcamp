@@ -124,8 +124,11 @@ print(subtraction)
 height = float(input("Enter your height in centimeter:\n"))
 weight = int(input("Enter your weight in Kg:\n"))
 bmi = weight / height ** 2
+# achieved flooring to the nearst whole number using the int function to wrap our floating point result
 print("Your bmi is:", int(bmi))
-
+# We can achevie a more the accurate result using the round function which will either round up or down to the nearest who number depending
+# on how near the decimal place numbers are to the nearest whole number this approach is advised way of achieving a cleaner output as round function is a mathematical operation in python
+print("your bmi is :", round(bmi))
 
 
 
