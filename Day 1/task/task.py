@@ -111,6 +111,11 @@ exponent = 3 ** 3
 print(exponent)
 multiplication = 3 * 3
 print(multiplication)
+floor_division = 6 // 2
+print(floor_division)
+floating_point_division = 7 / 3
+
+
 
 
 
