@@ -171,11 +171,30 @@ print(f"your bmi is: {round(bmi, 2)}")
 # final_bill = round(total_bill, 2 )
 # print(f"Each person should pay {final_bill}")
 # implementing the even or odd number check depend on what number user inputted
-user_input = int(input("Enter the number to be checked "))
-if user_input % 2 == 0:
-    print("Even")
+# if/else condtional statement
+
+# user_input = int(input("Enter the number to be checked "))
+# if/else conditional statement
+# if user_input % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# Nested if/else statement.
+print("Welcome to the rollercoaster!")
+height = int(input("Enter your height in cm: "))
+if height >= 120:
+    print("you can ride the rollercoaster ")
+    age = int(input("Enter age: "))
+    if age <= 12:
+        print("Pay $5")
+    elif age <= 18:
+        print("Pay $7")
+    else:
+        print("Pay $12")
 else:
-    print("Odd")
+    print("Sorry you are not tall enough to ride.")
+
 
 
 
