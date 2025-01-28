@@ -181,19 +181,30 @@ print(f"your bmi is: {round(bmi, 2)}")
 #     print("Odd")
 
 # Nested if/else statement.
-print("Welcome to the rollercoaster!")
-height = int(input("Enter your height in cm: "))
-if height >= 120:
-    print("you can ride the rollercoaster ")
-    age = int(input("Enter age: "))
-    if age <= 12:
-        print("Pay $5")
-    elif age <= 18:
-        print("Pay $7")
-    else:
-        print("Pay $12")
+# print("Welcome to the rollercoaster!")
+# height = int(input("Enter your height in cm: "))
+# if height >= 120:
+#     print("you can ride the rollercoaster ")
+#     age = int(input("Enter age: "))
+#     if age <= 12:
+#         print("Pay $5")
+#     elif age <= 18:
+#         print("Pay $7")
+#     else:
+#         print("Pay $12")
+# else:
+#     print("Sorry you are not tall enough to ride.")
+
+# exercise to build bmi calculator and incorporate if/elif/else conditional statement to interperprate the bmi values calculated
+height = 1.85
+weight = 83
+bmi = weight / (height ** 2)
+if bmi >= 25:
+    print("overweight")
+elif bmi >= 18:
+    print("normal weight")
 else:
-    print("Sorry you are not tall enough to ride.")
+    print("underweght")
 
 
 
