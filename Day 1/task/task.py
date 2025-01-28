@@ -151,16 +151,25 @@ print(f"your bmi is: {round(bmi, 2)}")
 # # f-string methed to print this values
 # print(f"Your name is {name}, you are {age}years old, you are tall true or false ? {isTall}.")
 # # final day project (build a tip calculator)
-
+# implementation 1
 print("Welcome to tip calculator!")
 bill_amount =float(input("What was the total bill? $ \n"))
 tip_amount = int(input("How much tip would you like to give? 10, 12, or 15? \n"))
 people = int(input("How many people to split the bill? \n"))
-tip_as_percent = tip_amount / 100 # which will be either 0.1 or 0.12 or 0.15 depending on how much a customer tips
-tip_and_bill_amount = bill_amount * tip_as_percent + bill_amount # which 100 * 0.1 + 100 which is 110
-bill_per_person = tip_and_bill_amount / people
+total_bill = (tip_amount / 100) * 100 + bill_amount # which is 10/100 = 0.1 * 100 = 10 + 100 which is 110
+bill_per_person = total_bill / people
 each_person_total = round(bill_per_person, 2)
 print(f"Each person should pay ${each_person_total}")
+# Implementation two
+# print("Welcome to tip calculator!")
+# bill_amount = float(input("What is the total bill? $"))
+# tip_amount = int(input("How much tip would you like to give? 10, 12, or 15? "))
+# people = int(input("How many people to split the bill? "))
+# tip_percentage = tip_amount / 100
+# total_bill = bill_amount + tip_percentage
+# bill_per_person = total_bill / people
+# final_bill = round(total_bill, 2 )
+# print(f"Each person should pay {final_bill}")
 
 
 
