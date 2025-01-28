@@ -161,15 +161,24 @@ print(f"your bmi is: {round(bmi, 2)}")
 # each_person_total = round(bill_per_person, 2)
 # print(f"Each person should pay ${each_person_total}")
 # # Implementation two
-print("Welcome to tip calculator!")
-bill_amount = float(input("What is the total bill? $"))
-tip_amount = int(input("How much tip would you like to give? 10, 12, or 15? "))
-people = int(input("How many people to split the bill? "))
-tip_percentage = tip_amount / 100
-total_bill = bill_amount + tip_percentage
-bill_per_person = total_bill / people
-final_bill = round(total_bill, 2 )
-print(f"Each person should pay {final_bill}")
+# print("Welcome to tip calculator!")
+# bill_amount = float(input("What is the total bill? $"))
+# tip_amount = int(input("How much tip would you like to give? 10, 12, or 15? "))
+# people = int(input("How many people to split the bill? "))
+# tip_percentage = tip_amount / 100
+# total_bill = bill_amount + tip_percentage
+# bill_per_person = total_bill / people
+# final_bill = round(total_bill, 2 )
+# print(f"Each person should pay {final_bill}")
+# implementing the even or odd number check depend on what number user inputted
+user_input = int(input("Enter the number to be checked "))
+if user_input % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+
 
 
 
