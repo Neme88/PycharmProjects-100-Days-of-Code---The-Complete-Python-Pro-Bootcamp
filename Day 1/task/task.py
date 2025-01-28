@@ -142,14 +142,31 @@ print(f"your bmi is: {round(bmi, 2)}")
 # *=
 # /=
 
-# f-string is a technique that helps us to combine different datatypes together while printing without having to go through the painful process of
+# f-string is a technique that helps us to insert different datatypes into a string while printing without having to go through the painful process of
 # concatenating different values and having to convert theme before we can print. it is a very handy tool.
 # example
-age = 10
-name = "Neme"
-isTall = True
-# f-string methed to print this values
-print(f"Your name is {name}, you are {age}years old, you are tall true or false ? {isTall}.")
+# age = 10
+# name = "Neme"
+# isTall = True
+# # f-string methed to print this values
+# print(f"Your name is {name}, you are {age}years old, you are tall true or false ? {isTall}.")
+# # final day project (build a tip calculator)
+
+print("Welcome to tip calculator!")
+bill_amount =float(input("What was the total bill? $ \n"))
+tip_amount = int(input("How much tip would you like to give? 10, 12, or 15? \n"))
+people = int(input("How many people to split the bill? \n"))
+tip_as_percent = tip_amount / 100 # which will be either 0.1 or 0.12 or 0.15 depending on how much a customer tips
+tip_and_bill_amount = bill_amount * tip_as_percent + bill_amount # which 100 * 0.1 + 100 which is 110
+bill_per_person = tip_and_bill_amount / people
+each_person_total = round(bill_per_person, 2)
+print(f"Each person should pay ${each_person_total}")
+
+
+
+
+
+
 
 
 
