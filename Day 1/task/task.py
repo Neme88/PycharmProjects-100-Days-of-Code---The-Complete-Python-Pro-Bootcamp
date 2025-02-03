@@ -196,15 +196,15 @@ print(f"your bmi is: {round(bmi, 2)}")
 #     print("Sorry you are not tall enough to ride.")
 
 # exercise to build bmi calculator and incorporate if/elif/else conditional statement to interperprate the bmi values calculated
-height = 1.85
-weight = 83
-bmi = weight / (height ** 2)
-if bmi >= 25:
-    print("overweight")
-elif bmi >= 18:
-    print("normal weight")
-else:
-    print("underweght")
+# height = 1.85
+# weight = 83
+# bmi = weight / (height ** 2)
+# if bmi >= 25:
+#     print("overweight")
+# elif bmi >= 18:
+#     print("normal weight")
+# else:
+#     print("underweght")
 
 
 # Nested if/else statement.
@@ -228,10 +228,35 @@ if height >= 120:
     wants_photos = input("do you want photos? type y for Yes and n for No.")
     if wants_photos == 'y':
         bill+= 3
-    print(f"Your filnal bill is {bill}")
+    print(f"Your filnal bill is ${bill}")
 
 else:
     print("Sorry you are not tall enough to ride.")
+
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L: ")
+pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
+extra_cheese = input("Do you want extra cheese? Y or N: ")
+small_pizza_price = 15
+medium_pizza_price = 20
+large_pizza_price = 25
+pizza_price = 0
+ordering_pizza = True
+if ordering_pizza:
+
+    if size == 'S':
+        pizza_price = small_pizza_price
+    elif size == 'M':
+        pizza_price = medium_pizza_price
+    elif size == 'L':
+        pizza_price = large_pizza_price
+    else:
+        print("Enter valid pizza size")
+    if pepperoni == 'Y':
+
+else:
+    print("Do you want to order a pizza")
+
 
 
 
