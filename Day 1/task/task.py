@@ -207,6 +207,35 @@ else:
     print("underweght")
 
 
+# Nested if/else statement.
+# Multiple if statements
+#  enhancing this code to include multiple if statements
+print("Welcome to the rollercoaster!")
+height = int(input("Enter your height in cm: "))
+bill = 0
+if height >= 120:
+    print("you can ride the rollercoaster ")
+    age = int(input("Enter age: "))
+    if age <= 12:
+        bill = 5
+        print("Children Pay $5")
+    elif age <= 18:
+        bill = 7
+        print("Teenagers Pay $7")
+    else:
+        bill = 12
+        print("Adults Pay $12")
+    wants_photos = input("do you want photos? type y for Yes and n for No.")
+    if wants_photos == 'y':
+        bill+= 3
+    print(f"Your filnal bill is {bill}")
+
+else:
+    print("Sorry you are not tall enough to ride.")
+
+
+
+
 
 
 
