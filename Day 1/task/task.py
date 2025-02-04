@@ -252,7 +252,14 @@ if ordering_pizza:
         pizza_price = large_pizza_price
     else:
         print("Enter valid pizza size")
-    if pepperoni == 'Y':
+    if pepperoni == 'Y' and size == 'S':
+        pizza_price += 2
+    if extra_cheese == 'Y' and size == 's' and pepperoni == 'Y':
+        pizza_price += 3
+    if pepperoni == 'Y' and size == 'M' or size == 'L':
+        pizza_price += 3
+    if extra_cheese == 'Y' and size == 'M' or size == 'L':
+        pizza_price += 4
 
 else:
     print("Do you want to order a pizza")
