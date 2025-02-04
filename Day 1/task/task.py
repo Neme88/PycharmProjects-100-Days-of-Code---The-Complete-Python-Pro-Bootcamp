@@ -244,29 +244,41 @@ pizza_price = 0
 ordering_pizza = True
 
 if ordering_pizza:
-    if extra_cheese == 'Y' and size == 'S' and pepperoni == 'Y':
+    if extra_cheese == 'y' and size == 's' and pepperoni == 'y':
         pizza_price = small_pizza_price + 3
         print(f"Your final bill is: {pizza_price}.")
-    elif pepperoni == 'Y' and size == 'S':
+    elif pepperoni == 'y' and size == 's':
         pizza_price = small_pizza_price + 2
         print(f"Your final bill is: {pizza_price}.")
-    elif size == 'S':
+    elif extra_cheese == 'y' and size == 's':
+        pizza_price = small_pizza_price+ 1
+        print(f"Your final bill is: {pizza_price}.")
+    elif size == 's':
         pizza_price = small_pizza_price
         print(f"Your final price is {pizza_price}")
 
-    if extra_cheese == 'Y' and size == 'M' or size == 'L':
+    if extra_cheese == 'y' and size == 'm' and pepperoni == 'y':
         pizza_price = medium_pizza_price + 4
-    elif pepperoni == 'Y' and size == 'M':
+        print(f"Your final bill is: {pizza_price}.")
+    elif pepperoni == 'y' and size == 'm':
         pizza_price = medium_pizza_price + 3
         print(f"Your final bill is: {pizza_price}.")
-    elif size == 'M':
+    elif extra_cheese == 'y' and size == 'm':
+        pizza_price = medium_pizza_price + 1
+        print(f"Your final bill is: {pizza_price}.")
+    elif size == 'm':
         pizza_price = medium_pizza_price
         print(f"Your final bill is: {pizza_price}.")
-    if extra_cheese == 'Y' and size == 'L':
+    if extra_cheese == 'y' and size == 'l' and pepperoni == 'y':
         pizza_price = large_pizza_price + 4
-    elif pepperoni == 'Y' and size == 'L':
+        print(f"Your final bill is: {pizza_price}")
+    elif pepperoni == 'y' and size == 'l':
         pizza_price = large_pizza_price + 3
-    elif size == 'L':
+        print(f"Your final bill is: {pizza_price}")
+    elif extra_cheese == 'y' and size == 'l':
+        pizza_price = large_pizza_price + 1
+        print(f"Your final bill is: {pizza_price}.")
+    elif size == 'l':
         pizza_price = large_pizza_price
         print(f"Your final bill is: {pizza_price}.")
     else:
