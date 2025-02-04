@@ -234,9 +234,9 @@ print(f"your bmi is: {round(bmi, 2)}")
 #     print("Sorry you are not tall enough to ride.")
 
 print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L: ")
-pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
-extra_cheese = input("Do you want extra cheese? Y or N: ")
+size = input("What size pizza do you want? S, M, or L: ").lower()
+pepperoni = input("Do you want pepperoni on your pizza? Y or N: ").lower()
+extra_cheese = input("Do you want extra cheese? Y or N: ").lower()
 small_pizza_price = 15
 medium_pizza_price = 20
 large_pizza_price = 25
