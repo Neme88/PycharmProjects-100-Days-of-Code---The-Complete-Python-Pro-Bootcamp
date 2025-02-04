@@ -244,45 +244,47 @@ pizza_price = 0
 ordering_pizza = True
 
 if ordering_pizza:
+    if not size:
+        print("Enter valid size")
     if extra_cheese == 'y' and size == 's' and pepperoni == 'y':
         pizza_price = small_pizza_price + 3
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif pepperoni == 'y' and size == 's':
         pizza_price = small_pizza_price + 2
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif extra_cheese == 'y' and size == 's':
         pizza_price = small_pizza_price+ 1
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif size == 's':
         pizza_price = small_pizza_price
-        print(f"Your final price is {pizza_price}")
+        print(f"Your final price is ${pizza_price}")
 
     if extra_cheese == 'y' and size == 'm' and pepperoni == 'y':
         pizza_price = medium_pizza_price + 4
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif pepperoni == 'y' and size == 'm':
         pizza_price = medium_pizza_price + 3
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif extra_cheese == 'y' and size == 'm':
         pizza_price = medium_pizza_price + 1
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif size == 'm':
         pizza_price = medium_pizza_price
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     if extra_cheese == 'y' and size == 'l' and pepperoni == 'y':
         pizza_price = large_pizza_price + 4
-        print(f"Your final bill is: {pizza_price}")
+        print(f"Your final bill is: ${pizza_price}")
     elif pepperoni == 'y' and size == 'l':
         pizza_price = large_pizza_price + 3
-        print(f"Your final bill is: {pizza_price}")
+        print(f"Your final bill is: ${pizza_price}")
     elif extra_cheese == 'y' and size == 'l':
         pizza_price = large_pizza_price + 1
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     elif size == 'l':
         pizza_price = large_pizza_price
-        print(f"Your final bill is: {pizza_price}.")
+        print(f"Your final bill is: ${pizza_price}.")
     else:
-        print("Enter valid pizza size")
+        pass
 
 else:
     print("Do you want to order a pizza")
