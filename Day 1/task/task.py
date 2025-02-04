@@ -302,6 +302,13 @@ elif size == 'M':
     bill += 20
 elif size == 'L':
     bill += 25
+# work out how much to add to their bill based on their pepperoni choice
+if pepperoni == 'Y':
+    if size == 's':
+        bill=+ 2
+    else:
+        bill =+ 3
+
 
 
 
