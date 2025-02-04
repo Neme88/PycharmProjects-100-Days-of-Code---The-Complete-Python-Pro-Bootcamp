@@ -210,28 +210,28 @@ print(f"your bmi is: {round(bmi, 2)}")
 # Nested if/else statement.
 # Multiple if statements
 #  enhancing this code to include multiple if statements
-print("Welcome to the rollercoaster!")
-height = int(input("Enter your height in cm: "))
-bill = 0
-if height >= 120:
-    print("you can ride the rollercoaster ")
-    age = int(input("Enter age: "))
-    if age <= 12:
-        bill = 5
-        print("Children Pay $5")
-    elif age <= 18:
-        bill = 7
-        print("Teenagers Pay $7")
-    else:
-        bill = 12
-        print("Adults Pay $12")
-    wants_photos = input("do you want photos? type y for Yes and n for No.")
-    if wants_photos == 'y':
-        bill+= 3
-    print(f"Your filnal bill is ${bill}")
-
-else:
-    print("Sorry you are not tall enough to ride.")
+# print("Welcome to the rollercoaster!")
+# height = int(input("Enter your height in cm: "))
+# bill = 0
+# if height >= 120:
+#     print("you can ride the rollercoaster ")
+#     age = int(input("Enter age: "))
+#     if age <= 12:
+#         bill = 5
+#         print("Children Pay $5")
+#     elif age <= 18:
+#         bill = 7
+#         print("Teenagers Pay $7")
+#     else:
+#         bill = 12
+#         print("Adults Pay $12")
+#     wants_photos = input("do you want photos? type y for Yes and n for No.")
+#     if wants_photos == 'y':
+#         bill+= 3
+#     print(f"Your filnal bill is ${bill}")
+#
+# else:
+#     print("Sorry you are not tall enough to ride.")
 
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L: ")
@@ -242,24 +242,31 @@ medium_pizza_price = 20
 large_pizza_price = 25
 pizza_price = 0
 ordering_pizza = True
-if ordering_pizza:
 
+if ordering_pizza == True:
     if size == 'S':
         pizza_price = small_pizza_price
+        print(f"Your final bill is: {pizza_price}.")
     elif size == 'M':
         pizza_price = medium_pizza_price
+        print(f"Your final bill is: {pizza_price}.")
     elif size == 'L':
         pizza_price = large_pizza_price
+        print(f"Your final bill is: {pizza_price}.")
     else:
         print("Enter valid pizza size")
     if pepperoni == 'Y' and size == 'S':
         pizza_price += 2
+        print(f"Your final bill is: {pizza_price}.")
     if extra_cheese == 'Y' and size == 's' and pepperoni == 'Y':
         pizza_price += 3
+        print(f"Your final bill is: {pizza_price}.")
     if pepperoni == 'Y' and size == 'M' or size == 'L':
         pizza_price += 3
+        print(f"Your final bill is: {pizza_price}.")
     if extra_cheese == 'Y' and size == 'M' or size == 'L':
         pizza_price += 4
+        print(f"Your final bill is: {pizza_price}.")
 
 else:
     print("Do you want to order a pizza")
